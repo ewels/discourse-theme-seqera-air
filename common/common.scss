@@ -571,7 +571,7 @@ table.category-list {
   margin: 0.33em 2em 0 0;
   --max-height: 40px;
 }
-.category-list .category-name {
+.category-list .parent-category .category-name {
   margin-top: 1rem;
 }
 .category-list tbody {
@@ -579,6 +579,9 @@ table.category-list {
   .topics,
   .latest {
     background-color: rgba(0, 0, 0, 0.05);
+  }
+  .topics .unread-new {
+    display: none;
   }
 }
 .category-list tbody tr:hover {
