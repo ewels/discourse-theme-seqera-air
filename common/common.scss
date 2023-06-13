@@ -571,3 +571,20 @@ table.category-list {
   margin: 0.33em 2em 0 0;
   --max-height: 40px;
 }
+.category-list .category-name {
+  margin-top: 1rem;
+}
+.category-list tbody {
+  .category,
+  .topics,
+  .latest {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+.category-list tbody tr:hover {
+  .category,
+  .topics,
+  .latest {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
