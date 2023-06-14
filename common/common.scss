@@ -591,3 +591,32 @@ table.category-list {
     background-color: rgba(0, 0, 0, 0.1);
   }
 }
+
+/* Simple category buttons for top-level cats only */
+.category {
+  .category-list:not(.theme-setting):not(.setting) .category-boxes,
+  .category-list:not(.theme-setting):not(.setting) .category-boxes-with-topics,
+  .category-list:not(.theme-setting):not(.setting) .category-list.subcategory-list,
+  .category-list:not(.theme-setting):not(.setting) .column.categories,
+  .category-list:not(.theme-setting):not(.setting) .category-list,
+  .category-list:not(.theme-setting):not(.setting) .muted-categories,
+  .navigation-categories .list-container .full-width #list-area .contents .category-boxes,
+  .navigation-categories .list-container .full-width #list-area .contents .category-boxes-with-topics,
+  .navigation-categories .list-container .full-width #list-area .contents .category-list.subcategory-list,
+  .navigation-categories .list-container .full-width #list-area .contents .column.categories,
+  .navigation-categories .list-container .full-width #list-area .contents .category-list,
+  .navigation-categories .list-container .full-width #list-area .contents .muted-categories,
+  .categories-list .list-container .full-width #header-list-area .contents .category-boxes,
+  .categories-list .list-container .full-width #header-list-area .contents .category-boxes-with-topics,
+  .categories-list .list-container .full-width #header-list-area .contents .category-list.subcategory-list,
+  .categories-list .list-container .full-width #header-list-area .contents .column.categories,
+  .categories-list .list-container .full-width #header-list-area .contents .category-list,
+  .categories-list .list-container .full-width #header-list-area .contents .muted-categories{
+    display: inherit !important;
+    visibility: inherit !important;
+  }
+  .custom-category-boxes {
+    display: none;
+    visibility: hidden;
+  }
+}
