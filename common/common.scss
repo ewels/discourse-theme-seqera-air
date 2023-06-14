@@ -591,25 +591,3 @@ table.category-list {
     background-color: rgba(0, 0, 0, 0.1);
   }
 }
-
-/* Simple category buttons for top-level cats only */
-.category {
-  .custom-category-boxes {
-    display: none;
-    visibility: hidden;
-  }
-
-  .category-list:not(.theme-setting):not(.setting),
-  .navigation-categories .list-container .full-width #list-area .contents,
-  .categories-list .list-container .full-width #header-list-area .contents {
-    .category-boxes,
-    .category-boxes-with-topics,
-    .category-list.subcategory-list,
-    .column.categories,
-    .category-list,
-    .muted-categories {
-      display: inherit !important;
-      visibility: visible !important;
-    }
-  }
-}
