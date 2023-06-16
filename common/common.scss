@@ -597,3 +597,15 @@ table.category-list {
 .category-logo.no-logo-present {
   min-width: 132px;
 }
+.bg-gradient {
+  height: 400px;
+  background-image: linear-gradient(180deg, #fff, rgba(66, 86, 231, .1));
+}
+.bg-waves {
+  height: 100px;
+  margin-bottom: -7px;
+  position: relative;
+  width: 100%;
+  background-color: rgb(66 86 231/0.1);
+  vertical-align: middle;
+}
