@@ -2,7 +2,7 @@
 .custom-search-banner-wrap {
   margin: 0 auto !important;
   max-width: unset;
-  color: var(--secondary);
+  color: var(--primary);
   h1 {
     font-size: 4em;
   }
@@ -239,12 +239,6 @@ html {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(
-      90deg,
-      #290362 0%,
-      #4184F3 100%
-    );
-    clip-path: ellipse(148% 70% at 91% -14%);
   }
 }
 
