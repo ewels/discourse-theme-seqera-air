@@ -634,3 +634,11 @@ table.category-list {
   --category-color: var(--tertiary);
   --category-text-color: var(--secondary);
 }
+
+
+// Reset weird CSS coming from somewhere
+.posters a:first-child .avatar.latest:not(.single) {
+  box-shadow: none;
+  border: none;
+  left: auto;
+}
