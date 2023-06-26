@@ -200,8 +200,12 @@ div.ac-wrap {
 .btn:not(.themes-tab):not(.components-tab):not(.btn-flat),
 .select-kit.dropdown-select-box .dropdown-select-box-header {
   border-radius: 20px;
-  box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
   border: 1px solid transparent;
+  transition: box-shadow 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  &:hover, &:focus {
+    box-shadow:0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 5px 1px rgba(0, 0, 0, .2);
+  }
 }
 .d-editor-button-bar .btn {
   box-shadow: none !important;
@@ -243,12 +247,7 @@ div.ac-wrap {
 
 html {
   body {
-    background: linear-gradient(
-        0deg,
-        rgba(var(--primary-rgb), 0.075) 0%,
-        rgba(var(--primary-rgb), 0.075) 100%
-      ),
-      linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
+    background: #ffffff;
   }
   .background-container {
     position: fixed;
@@ -630,4 +629,5 @@ table.category-list {
 // Fallback to blue, not white
 :root {
   --category-color: var(--tertiary);
+  --category-text-color: var(--secondary);
 }
