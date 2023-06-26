@@ -543,7 +543,8 @@ html body #main-outlet {
 }
 
 /* Custom Seqera CSS */
-.categories-list .category .category-description {
+.categories-list .category .category-description,
+.category-list .latest div:not(:first-child) {
   display: none;
 }
 
