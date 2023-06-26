@@ -145,6 +145,9 @@ input[type="color"],
 .select-kit.combo-box .select-kit-header,
 .d-editor-textarea-wrapper,
 div.ac-wrap {
+  border-radius: 4px;
+}
+.navigation-container .select-kit.combo-box .select-kit-header {
   border-radius: 20px;
   padding-left: 15px;
   box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
