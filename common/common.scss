@@ -214,6 +214,9 @@ div.ac-wrap {
 .topic-footer-main-buttons .btn-primary {
   background-color: var(--category-color);
   color: var(--category-text-color);
+  &:hover, &:focus {
+    background-color: var(--category-color);
+  }
   .d-icon {
     color: var(--category-text-color);
   }
