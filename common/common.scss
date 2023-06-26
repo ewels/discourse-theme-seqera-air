@@ -203,6 +203,17 @@ div.ac-wrap {
   box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
   border: 1px solid transparent;
 }
+.d-editor-button-bar .btn {
+  box-shadow: none !important;
+}
+#create-topic,
+.topic-footer-main-buttons .btn-primary {
+  background-color: var(--category-color);
+  color: var(--category-text-color);
+  .d-icon {
+    color: var(--category-text-color);
+  }
+}
 
 .post-admin-menu.popup-menu {
   .btn.widget-button {
