@@ -616,13 +616,13 @@ table.category-list {
 }
 .bg-gradient {
   height: 400px;
-  background-image: linear-gradient(180deg, #fff, rgba(66, 86, 231, .1));
+  background-image: linear-gradient(180deg, #fff, color-mix(in srgb, var(--category-color, rgba(66, 86, 231)) 10%, transparent));
 }
 .bg-waves {
   height: 100px;
   margin-bottom: -7px;
   position: relative;
   width: 100%;
-  background-color: rgb(66 86 231/0.1);
+  background-color: color-mix(in srgb, var(--category-color, rgba(66, 86, 231)) 10%, transparent);
   vertical-align: middle;
 }
