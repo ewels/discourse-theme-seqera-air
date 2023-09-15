@@ -558,7 +558,7 @@ html body #main-outlet {
 .global-notice .alert.alert-global-notice {
   background-color: rgba(33, 37, 41, 1);
   border-radius: 0.3em;
-  padding: .8em 1em;
+  padding: .8em 1.5em;
 }
 .alert-global-notice span div {
   display: flex;
@@ -566,6 +566,8 @@ html body #main-outlet {
   font-size: 14px;
   column-gap: 10px;
   align-items: center;
+  justify-content: space-between;
+
 }
 
 table.category-list {
