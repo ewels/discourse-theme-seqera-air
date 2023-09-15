@@ -555,6 +555,18 @@ html body #main-outlet {
 }
 */
 
+.global-notice .alert.alert-global-notice {
+  background-color: rgba(33, 37, 41, 1);
+  border-radius: 0.3em;
+  padding: .8em 1em;
+}
+.alert-global-notice span div {
+  display: flex;
+  color: white;
+  font-size: 14px;
+  column-gap: 10px;
+  align-items: center;
+}
 
 table.category-list {
   border-collapse: separate;
