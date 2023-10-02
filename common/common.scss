@@ -650,3 +650,10 @@ table.category-list {
   border: none;
   left: auto;
 }
+
+// Custom footer component
+.custom-footer .first-box .blurb,
+.custom-footer .footer-section-link-wrapper a,
+.custom-footer .third-box .small-link {
+  color: #ffffff !important;
+}
