@@ -682,3 +682,11 @@ table.category-list {
 .custom-footer {
   background-color: #1E2533 !important;
 }
+
+// Fix overlapping elements
+.more-topics__container .more-topics__list .topic-list-body .topic-list-item:first-child td {
+  padding-top: 12px;
+}
+.more-topics__container .nav {
+  position: relative;
+}
